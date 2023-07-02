@@ -17,6 +17,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-left: 156px;  
     }
 
 .logo-accent-color{
@@ -34,8 +35,14 @@ body{
 
 
 /* Navigation */
+.menu{
+    display: flex;
+    height: 72px;
+    flex-direction: row;   
+}
 .list{
     list-style: none;
+    
     
 }
 
@@ -44,7 +51,8 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;    
+    color: #2e2f42;
+    padding-right: 40px;  
 }
 
 .list-style:hover,
@@ -55,7 +63,10 @@ body{
 
 /* Contact */
 .contact-style{
-    font-style: normal;    
+    font-style: normal; 
+    flex-direction: row;
+    
+      
 }
 
 .contact-link{
@@ -63,12 +74,16 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    
 }
 
 /* Main content */
 /* Title h1 */
 .main-screen{
     background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    padding-top: 188px;
 }
 .title-style{
     font-size: 56px;
@@ -76,6 +91,8 @@ body{
     line-height: 1.07;
     color: #ffffff;
     text-align: center;
+    width: 496px;
+    margin: 0 auto;
 }
 
 .order-button{
@@ -87,6 +104,12 @@ body{
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
+    display: inline-flex;
+    padding: 16px 32px;
+    gap: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
     }
 
 .order-button:hover,
