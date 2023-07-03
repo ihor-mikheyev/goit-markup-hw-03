@@ -147,6 +147,21 @@ img{
 
 
 /* Benefits */
+
+.benefits-root{
+    padding: 120px 0;
+}
+
+/* !!!Hidden H2!!! */
+.container h2{
+    visibility: hidden;
+}
+
+.container ul{
+    display: flex;
+    gap: 24px;
+}
+
 .benefits-style{
     font-weight: 500;
     font-size: 20px;
