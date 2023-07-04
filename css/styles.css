@@ -61,7 +61,7 @@ img{
 }
 
 .container{
-    max-width:1158px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -181,14 +181,15 @@ img{
     display: flex;
     flex-basis: calc((100% - 3 * 24px) / 4);
     gap: 24px;
+    padding-bottom: 120px;
 }
+
 
 .paragraph-style{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 120px;
-}
+    }
 
 /* About us */
 .about-us-style,
@@ -199,7 +200,8 @@ img{
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-bottom: 72px;   
+    padding-top: 120px;
+    padding-bottom: 72px;   
 }
 
 .team-item{
@@ -213,6 +215,7 @@ img{
 .image-item{
     display: flex;
     gap: 24px;
+    padding-bottom: 120px;
 }
 
 .member-card{
