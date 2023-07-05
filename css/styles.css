@@ -209,7 +209,6 @@ img{
 .team-item{
     display: flex;
     gap: 24px;
-    border-radius: 0px 0px 4px 4px;
     padding-bottom: 120px;
 
 }
@@ -222,7 +221,11 @@ img{
 
 .member-card{
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
     
+}
+.card-content {
+    padding: 32px 16px; 
 }
 
 .title-card{
