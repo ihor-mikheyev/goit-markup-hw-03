@@ -61,7 +61,7 @@ img{
 }
 
 .container{
-    max-width: 1440px;
+    max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -121,7 +121,7 @@ img{
 /* Title h1 */
 .main-screen{
     background-color: #2E2F42;
-    width: 1440px;
+    /* width: 1440px; */
     height: 600px;
     padding: 188px 0;
 }
@@ -181,7 +181,6 @@ img{
     display: flex;
     flex-basis: calc((100% - 3 * 24px) / 4);
     gap: 24px;
-    padding-bottom: 120px;
 }
 
 
@@ -200,8 +199,7 @@ img{
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-top: 120px;
-    padding-bottom: 72px;   
+    padding-bottom: 72px;
 }
 
 .team-item{
@@ -231,6 +229,7 @@ img{
     color: #2e2f42;
     text-align: center;
     padding-top: 32px;
+    margin: 0px 8px;
 }
 
 .position-card{
@@ -238,6 +237,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    padding: 0px;
 }
 
 .cloud-bg{
@@ -281,13 +281,21 @@ img{
 .footer {
     color: #F4F4FD;
     background-color: #2E2F42;
+    padding: 100px 0; 
+
 }
 
 .footer-accent-color{
     color: #f4f4fd;
 }
 
+.footer-link{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .footer-text{
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
