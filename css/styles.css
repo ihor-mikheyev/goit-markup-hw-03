@@ -199,12 +199,11 @@ img{
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-bottom: 72px;
+    
 }
 
 .title-2{
-    padding-bottom: 120px;
-    margin: 0;
+        margin-bottom: 72px;
     }
 
 .team-item{
