@@ -258,8 +258,16 @@ img{
     padding: 0px;
 }
 
+
+/*--- Team --- */
+
+
 .cloud-bg{
     background-color: #F4F4FD;
+}
+
+.team-root{
+
 }
 
 .filter-button-style{
