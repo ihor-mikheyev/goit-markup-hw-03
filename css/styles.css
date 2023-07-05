@@ -159,8 +159,6 @@ img{
     background-color: #404BBF;
 }
 
-
-
 /* Benefits */
 
 .benefits-root{
@@ -176,11 +174,12 @@ img{
     color: #2e2f42;
     margin-bottom: 8px;
 }
-
-.benefit-item{
+.benefit-list{
     display: flex;
-    flex-basis: calc((100% - 3 * 24px) / 4);
     gap: 24px;
+}
+.benefit-item{
+    max-width: calc((100% - 3 * 24px) / 4);
 }
 
 
