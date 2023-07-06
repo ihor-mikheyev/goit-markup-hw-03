@@ -230,7 +230,7 @@ img{
     padding: 32px 16px; 
 }
 
-.sect-3-pic{
+.sect-pic{
     width: calc((100% - 48px) / 3);
 }
 
