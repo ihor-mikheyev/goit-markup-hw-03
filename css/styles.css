@@ -264,13 +264,11 @@ img{
 
 .cloud-bg{
     background-color: #F4F4FD;
-}
-
-.team-root{
     padding: 120px 0;
 }
 
 .member-card{
+    width: calc((100% - 72px) / 4);
 
 }
 
