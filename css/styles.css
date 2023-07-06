@@ -58,6 +58,7 @@ img{
 
 .nav-style{
     display: flex;
+    justify-content: space-between;
 }
 
 .container{
@@ -69,6 +70,7 @@ img{
 .menu{
     display: flex;
     align-items: center;
+    
     
 }
 
@@ -101,12 +103,14 @@ img{
 /* Contact */
 .contact-style{
     font-style: normal; 
-    flex-direction: row;   
+    flex-direction: row;  
+    
 }
 
 .address{
     display: flex;
     gap: 40px;
+    
 }
 
 .contact-link{
