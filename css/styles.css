@@ -291,12 +291,15 @@ img{
     border: 1px solid #E7E9FC;
     background-color: #F4F4FD;
     cursor: pointer;
+    padding: 12px 24px 12px;
+    border-radius: 4px;
 }
 
 .filter-button-style:hover, 
 .filter-button-style:focus{
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 .project-card-header{
@@ -326,6 +329,26 @@ img{
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+    padding-left: 0;
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    padding-left: 0;
+}
+
+.portfolio-item{
+    width: calc((100% - 48px) / 3);
+}
+
+.project-card-content{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 0;
 }
 
 .footer {
