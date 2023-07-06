@@ -240,6 +240,7 @@ img{
     text-align: center;
     padding-top: 32px;
     margin-bottom: 8px;
+    margin-top:0;
 }
 
 .position-card{
@@ -317,7 +318,7 @@ img{
     color: #f4f4fd;
 }
 
-.footer-link{
+.footer-logo{
     display: inline-block;
     margin-bottom: 16px;
 }
