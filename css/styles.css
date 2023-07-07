@@ -32,7 +32,7 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    /* margin-right: 76px; */
+    margin-right: 76px; 
     }
 
 .logo-accent-color{
@@ -380,6 +380,11 @@ img{
 .footer-logo{
     display: inline-block;
     margin-bottom: 16px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .footer-text{
