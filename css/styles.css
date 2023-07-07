@@ -9,6 +9,17 @@ body{
     background-color: #FFFFFF;   
 }
 
+p, h1, h2, h3, h4, h5, h6{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 img{
     display: block;
 }
@@ -21,7 +32,7 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin-right: 76px;  
+    /* margin-right: 76px; */
     }
 
 .logo-accent-color{
@@ -53,12 +64,13 @@ img{
 
 /* Navigation */
 .head{
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-style{
     display: flex;
     justify-content: space-between;
+    height: 72px;
 }
 
 .container{
@@ -70,13 +82,12 @@ img{
 .menu{
     display: flex;
     align-items: center;
-    
-    
 }
 
 .menu-list{
     display: flex;
     gap: 40px;
+    padding-left: 76px;
 }
 
 .list{
@@ -102,13 +113,15 @@ img{
 
 /* Contact */
 .contact-style{
-    font-style: normal; 
-    flex-direction: row;  
-    
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    flex-direction: row;
 }
 
 .address{
     display: flex;
+    align-items: center;
     gap: 40px;
     
 }
@@ -209,7 +222,7 @@ img{
 .team-item{
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
     padding-left: 0;
 }
 
@@ -217,7 +230,7 @@ img{
     display: flex;
     gap: 24px;
     padding-left: 0;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
     margin: 0;
 }
 
