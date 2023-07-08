@@ -87,13 +87,11 @@ img{
 .menu-list{
     display: flex;
     gap: 40px;
-    padding-left: 76px;
+    /* padding-left: 76px; */
 }
 
 .list{
     list-style: none;
-    
-    
 }
 
 .list-style{
@@ -107,7 +105,7 @@ img{
 
 .list-style:hover,
 .list-style:focus{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
@@ -138,7 +136,7 @@ img{
 /* Title h1 */
 .main-screen{
     background-color: #2E2F42;
-    /* width: 1440px; */
+    /* max-width: 1440px; */
     height: 600px;
     padding: 188px 0;
 }
@@ -258,7 +256,7 @@ img{
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
-    padding-top: 32px;
+    /* padding-top: 32px; */
     margin-bottom: 8px;
     margin-top:0;
 }
